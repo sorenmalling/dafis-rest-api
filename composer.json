@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "dafis/rest-api",
+    "require": {
+        "dafis/core": "*",
+        "flowpack/rest-api": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dafis\\RestApi\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Dafis.RestApi"
+        }
+    }
+}

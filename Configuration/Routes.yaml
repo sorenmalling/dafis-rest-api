@@ -1,0 +1,9 @@
+-
+  name: 'REST API routes'
+  uriPattern: 'api/<RestApiRoutes>'
+  defaults:
+    '@package': 'Dafis.RestApi'
+  subRoutes:
+    'RestApiRoutes':
+      package: 'Flowpack.RestApi'
+      suffix: 'Api'
